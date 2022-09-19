@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun T R | Web Developer & Tech Enthusiast</title>
+    <link rel="stylesheet" href="./myportfolio.css">
+    <link rel="icon" type="image/png" href="./Images/myportrait_v1.png">
+
+    
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-1 h1" href="#">
+            <button class="logo-btn">
+            <img src="./Images/myportrait_v1.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+            </button>
+            Arun T R
+          </a>
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#abt"><p>00:</p> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aexp"><p>01:</p> Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#wks"><p>10:</p> Works</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <p>11:</p> Contact
+                </a>
+                <ul class="dropdown-menu">
+                  <li><button class="navcontactbtn w-100 text-start" type="button" data-bs-toggle="modal" data-bs-target="#ModalMain" data-bs-whatever="arunrathnakumar97@gmail.com"><a class="dropdown-item" href="#">Email</a></button></li>
+                  <li><button class="navcontactbtn w-100 text-start" type="button" data-bs-toggle="modal" data-bs-target="#ModalMain" data-bs-whatever="8129085071"><a class="dropdown-item" href="#">Phone</a></button></li>
+                  <li><a class="dropdown-item" href="#ftr">Social Media</a></li>
+                </ul>
+              </li>
+            </ul>
+              <a href="./Files/Arun T R - Resume.pdf">
+              <button class="resume-btn" type="submit">Resume</button>
+              </a>
+          </div>
+        </div>
+      </nav>
+    
+      <!-- intro -->
+<div class="row">
+    <div class="col-2"></div>
+      <div class="col-8 page container p-5 m-5">
+        <h4>Hi, my name is</h4>
+        <h2 class="h3 mainhead">Arun T R.</h2>
+        <h2 class="h3 subhead">I develop cool Websites.</h2>
+        <p>
+            I’m a software engineer specializing in designing and building Websites & Web Apps<br>Doing my best to provide you the best experience on internet.
+        </p>
+
+
+                <button class="contact-btn" type="button" data-bs-toggle="modal" data-bs-target="#ModalMain" data-bs-whatever="arunrathnakumar97@gmail.com">
+                    Contact me!
+                </button>
+                        <div class="modal fade" id="ModalMain" tabindex="-1" aria-labelledby="ModalMainLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ModalMainLabel">New message</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn modal-btnc" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn modal-btn">Send message</button>
+                            </div>
+                            </div>
+                        </div>
+                        </div>    
+
+
+
+
+      </div>
+    <div class="col-2"></div>
+</div>
+
+       <!-- about -->
+
+<div class="row">
+    <div class="col-2"></div>       
+       <div class="col-8 page container p-5 m-5">
+        <h4>01</h4>
+        <h3 id="abt">About Me</h3>
+            <div class="text-center">
+            <img id="pfp" src="./Images/myphoto.jpg" alt="photo">
+            </div>
+        <p class="mt-5">
+            Hi, My name is Arun T R, I love everything related to Technology and Computers are no exception. I am always fascinated by Computers and things that they can do ever since I was a child. During my teenage, Internet and Web Apps exploded in popularity so I too was very curious about how they work and handle the information. Thus my interest towards Web Technologies started. I graduated with a bachelor's degree in Computer Science & Engineering. Now I enjoy creating wonderful Websites and Web Apps on my own.
+        </p>
+        <p>
+            Here are some of the technologies that I rely on for creating the best experiences:
+        </p>
+
+
+
+            <div class="accordion accordion-flush mt-5 pt-5" id="accordionFlushExample">
+                <ul>
+                <li>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                     JavaScript
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">JavaScript, often abbreviated to JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</div>
+                  </div>
+                </div>
+                </li>
+                <li>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      React
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.</div>
+                  </div>
+                </div>
+                </li>
+                <li>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Angular
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Angular is a TypeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.</div>
+                  </div>
+                </div>
+                </li>
+                <li>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Node.js
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser, which was designed to build scalable network applications.</div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Express
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.</div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+                        MongoDB
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License which is deemed non-free by several distributions.</div>
+                    </div>
+                  </div>
+                </li>
+                </ul>
+            </div>
+        </div>
+    <div class="col-2"></div>
+</div>    
+
+
+      <!-- experience -->
+<div class="row">
+    <div class="col-2"></div>
+      <div class="col-8 page container p-5 m-5">
+        <h4>02</h4>
+        <h3 id="aexp">Experience</h3>
+
+
+        <ul class="nav nav-pills mb-3 pt-5 mt-5" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-exp-tab" data-bs-toggle="pill" data-bs-target="#pills-exp" type="button" role="tab" aria-controls="pills-exp" aria-selected="true">Experience</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-pro-tab" data-bs-toggle="pill" data-bs-target="#pills-pro" type="button" role="tab" aria-controls="pills-pro" aria-selected="false">Project</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-intern-tab" data-bs-toggle="pill" data-bs-target="#pills-intern" type="button" role="tab" aria-controls="pills-intern" aria-selected="false">Internship</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-edu-tab" data-bs-toggle="pill" data-bs-target="#pills-edu" type="button" role="tab" aria-controls="pills-edu" aria-selected="false">Education</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-cour-tab" data-bs-toggle="pill" data-bs-target="#pills-cour" type="button" role="tab" aria-controls="pills-cour" aria-selected="false">Courses</button>
+              </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-exp" role="tabpanel" aria-labelledby="pills-exp-tab" tabindex="0">
+                
+                <!-- experience -->
+                <div class="row">
+                    <div class="col-8">
+                      <div class="inlist">
+                        <h4>MEARN Stack Web Developer Trainee</h4>
+                        <p>
+                            Luminar Technolab, Kochi, Kerala
+                        </p>
+                        <p>
+                            Core: JavaScript
+                        </p>
+                        <p>
+                            Front-end: React, Angular, Html, CSS
+                        </p>
+                        <p>
+                            Back-end: Node.js, Express, MongoDB
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+            </div>
+
+                
+            <div class="tab-pane fade" id="pills-pro" role="tabpanel" aria-labelledby="pills-pro-tab" tabindex="0">
+
+                <!-- project -->
+                <div class="row">
+                    <div class="col-8">
+                      <div class="inlist">
+                        <h4>Malayalam Handwritten Character Recognition Using CNN</h4>
+                        <p>
+                            Malayalam Language Character Recognition Using Digital Image Processing & Machine Learning
+                        </p>
+                        <p>
+                            Convolutional Neural Network Machine Learning Used for Pattern Recognition
+                        </p>
+                        <p>
+                            Made the Dataset Developed for the Project Open-Source
+                        </p>
+                        <h4>Hotel Management System Using Web Using PHP MySQL</h4>
+                        <p>Website with features for Hotel Booking, Checking Available Rooms, Registering Check-ins and Check-outs</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+            </div>
+
+
+            <div class="tab-pane fade" id="pills-intern" role="tabpanel" aria-labelledby="pills-intern-tab" tabindex="0">
+                
+
+                <!-- internship -->
+                <div class="row">
+                    <div class="col-8">
+                      <div class="inlist">
+                        <h4>Android App Development</h4>
+                        <p>
+                            iBand Technologies, Kochi, Kerala
+                        </p>
+                        <h4>Workshop on Machine Learning & Artificial Intelligence</h4>
+                        <p>VisionCog Research & Development Pvt. Ltd., Thiruvananthapuram</p>
+                        <h4>Android App Development</h4>
+                        <p>Jazz Solutions, Thrissur</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                
+            </div>
+
+
+            <div class="tab-pane fade" id="pills-edu" role="tabpanel" aria-labelledby="pills-edu-tab" tabindex="0">
+                
+
+                <!-- education -->
+                <div class="row">
+                    <div class="col-8">
+                      <div class="inlist">
+                        <h4>B.Tech in Computer Science & Engineering</h4>
+                        <p>
+                            Vidya Academy of Science & Technology, Kerala
+                        </p>
+                        <p>
+                            Dr. APJ Abdul Kalam Technological University, Kerala
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                
+            </div>
+
+
+            <div class="tab-pane fade" id="pills-cour" role="tabpanel" aria-labelledby="pills-cour-tab" tabindex="0">
+                
+
+                <!-- Courses -->
+                <div class="row">
+                    <div class="col-8">
+                      <div class="inlist">
+                        <h4>Architecting in Google Cloud Platform</h4>
+                        <p>
+                            Coursera
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                
+            </div>
+          </div>
+
+
+
+
+      </div>
+    <div class="col-2"></div>
+</div>
+
+
+      <!-- works -->
+<div class="row">
+        <div class="col-2"></div>
+          <div class="col-8 page container p-5 m-5">
+            <h4>03</h4>
+            <h3 id="wks">Works</h3>
+            
+                    <div class="row row-cols-1 row-cols-md-3 g-4 pt-5 mt-5">
+                        <div class="col">
+                        <div class="card h-100">
+                            <button class="btn card-btn" data-bs-toggle="modal" data-bs-target="#Modal1">
+                            <img src="./Images/travelweb.png" class="card-img-top" alt="...">
+                            </button>
+
+                            <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="Modal1Label">Xplore Travel Blog - Website</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="./travelblog.html" class="w-100" height="600px" frameborder="0"></iframe>
+                                    </div>
+                                    <div class="modal-footer">   
+                                        <button type="button" class="btn modal-btnc" data-bs-dismiss="modal">Close</button>
+                                        <a href="./travelblog.html"><button type="button" class="btn modal-btn">Visit</button></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                            <div class="card-body">
+                            <h5 class="card-title">Xplore Travel Blog - Website</h5>
+                            </div>
+
+                        </div>
+                        </div>
+
+
+                        <div class="col">
+                        <div class="card h-100"> 
+                            <button class="btn card-btn" data-bs-toggle="modal" data-bs-target="#Modal2">
+                            <img src="./Images/coffeeweb.png" class="card-img-top" alt="...">
+                            </button>
+
+                            <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="Modal2Label">The Coffee Company - Website</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="modal-body">
+                                            <iframe src="../CSS/coffee.html" class="w-100" height="600px" frameborder="0"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn modal-btnc" data-bs-dismiss="modal">Close</button>
+                                        <a href="../CSS/coffee.html"><button type="button" class="btn modal-btn">Visit</button></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                            <div class="card-body">
+                            <h5 class="card-title">The Coffee Company - Website</h5>
+                            </div>
+                        </div>
+                        </div>
+
+
+                        <div class="col">
+                        <div class="card h-100">
+
+                            <button class="btn card-btn" data-bs-toggle="modal" data-bs-target="#Modal3">
+                            <img src="./Images/sachinweb.png" class="card-img-top" alt="...">
+                            </button>
+
+                            <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3Label" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="Modal3Label">Sachin Tendulkar Portfolio - Website</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="modal-body">
+                                            <iframe src="../CSS/sachinportfolio.html" class="w-100" height="600px" frameborder="0"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn modal-btnc" data-bs-dismiss="modal">Close</button>
+                                      <a href="../CSS/sachinportfolio.html"><button type="button" class="btn modal-btn">Visit</button></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                           
+                            <div class="card-body">
+                            <h5 class="card-title">Sachin Tendulkar Portfolio - Website</h5>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+          </div>
+        <div class="col-2"></div>
+</div>
+
+
+
+
+    
+      <!-- contact -->
+      <div class="row">
+        <div class="col-2"></div>
+          <div class="col-8 page container p-5 m-5">
+            <h4>04</h4>
+            <h3>Contact</h3>
+            <p class="mt-5">
+                Write an email or contact me through my phone here!
+            </p>
+            <button class="contact-btn" type="button" data-bs-toggle="modal" data-bs-target="#ModalMain" data-bs-whatever="arunrathnakumar97@gmail.com">
+                Email
+            </button>>
+            <p>
+               Get it touch with me through my Social Networking Accounts below!
+            </p>
+            <button class="contact-btn" type="button" data-bs-toggle="modal" data-bs-target="#ModalMain" data-bs-whatever="8129085071">
+                Phone
+            </button>
+    
+    
+          </div>
+        <div class="col-2"></div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+
+<div id="ftr" class="ftr">
+
+    <footer class="ftr text-center">
+    <div class="container p-4 pb-0">
+
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        
+      
+        <!-- GitHub -->
+        <a class="fbtn btn btn-floating m-1" href="#!" role="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+        </a>
+
+        
+        <!-- Linkedin -->
+        <a class="fbtn btn btn-floating m-1" href="#!" role="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg>
+        </a>
+
+         <!-- Google -->
+         <a class="fbtn btn btn-floating m-1" href="#!" role="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+              </svg>
+        </a>
+  
+
+        <!-- Twitter -->
+        <a class="fbtn btn btn-floating m-1" href="#!" role="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+        </a>
+  
+       
+        <!-- Discord -->
+        <a class="fbtn btn btn-floating m-1" href="#!" role="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+        </a>
+  
+      
+
+    <div class="text-center p-3">
+      <a class="ftr txt" href="#">Designed by Arun T R</a>
+      <!-- <p class="ftr txts">Inspired by B. Chiang</p> -->
+    </div>
+
+  </footer>
+    
+  </div>
+
+
+</body>
+</html>
